@@ -1,0 +1,51 @@
+body {
+    background-image: url(./images/chess-image.jpg);
+    background-size: cover;
+}
+
+table {
+    border: 1px solid black;
+    border-spacing: 0;
+}
+
+tbody {
+    width: 100%;
+    height: 100%;
+}
+
+tr {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+}
+
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: #865747;
+}
+
+tr:nth-child(odd) td:nth-child(odd),
+tr:nth-child(even) td:nth-child(even) {
+    background-color: #f0c9a2;
+}
+
+h1,
+ul li {
+    color: white;
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+tr td {
+    font-size: 60px;
+    text-align: center;
+}
