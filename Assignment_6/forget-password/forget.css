@@ -1,0 +1,124 @@
+body {
+    background-color: #e9ebee;
+    margin: 0;
+}
+
+.second-top {
+    margin-top: 0px;
+    height: 80px;
+    background-color: white;
+}
+
+#my-email2 {
+    height: 30px;
+    padding: 5px;
+}
+
+.fb-logo {
+    height: 50px;
+    margin-top: 10px;
+}
+
+.fb-logo,
+.top-form {
+    display: inline-block;
+}
+
+.top-form {
+    margin-left: 35%;
+    margin-top: 0px;
+}
+
+#my-loginbtn2 {
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #1473f5;
+}
+
+.forgot-acc {
+    margin-left: 10px;
+}
+
+.second-side {
+    height: 300px;
+    width: 450px;
+    border: white;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px gray;
+    text-align: left;
+    margin-top: 50px;
+    background-color: white;
+}
+
+.top-form input {
+    padding: 5px;
+}
+
+.my-cancel {
+    text-align: center;
+    padding: 7px 12px 7px 12px;
+    margin-left: 200px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.my-cancel a {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.my-search {
+    text-align: center;
+    padding: 7px 12px 7px 12px;
+    margin-left: 20px;
+    background-color: #1473f5;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+/* Webpage Bottom Bar */
+
+.lang-bar {
+    margin-top: 250px;
+    text-align: left;
+    width: 1100px;
+    background-color: white;
+}
+
+.lang-bar a {
+    color: grey;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.lang-bar a:hover {
+    text-decoration: underline;
+}
+
+.downbar {
+    text-align: left;
+    width: 1100px;
+    background-color: white;
+}
+
+.downbar a {
+    margin: 5px;
+    color: grey;
+    text-decoration: none;
+}
+
+.downbar a:hover {
+    text-decoration: underline;
+}
+
+.down-hr {
+    width: 1100px;
+}
