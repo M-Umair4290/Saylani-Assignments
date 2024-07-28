@@ -1,0 +1,291 @@
+body {
+    margin: 0;
+    min-width: 320px;
+}
+
+.updates {
+    color: white;
+    padding: 5px;
+    background-color: #545454;
+    text-align: center;
+}
+
+.updates p {
+    margin: 0;
+}
+
+.updates p a {
+    color: white;
+}
+
+.updates p a:hover {
+    text-decoration: none;
+}
+
+.my-navigation {
+    background-color: #f7f6f4;
+}
+
+.top-head {
+    text-align: center;
+}
+
+.top-right i {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.top-right a {
+    margin-top: 50px;
+    color: black;
+    text-decoration: none;
+}
+
+.my-top {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+}
+
+#my-search {
+    height: 30px;
+}
+
+.mynavbar {
+    text-align: center;
+}
+
+.mynavbar ul li {
+    padding: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+.mynavbar ul li:hover {
+    border-bottom: 2px solid black;
+}
+
+.mynavbar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+/* .main-content{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} */
+
+.content-1 {
+    color: white;
+    text-align: center;
+    background-image: url(./images/bed-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+    height: 600px;
+    text-shadow: 2px 2px black;
+}
+
+.content-1 h1 {
+    font-size: 60px;
+}
+
+.content-1 p {
+    font-size: 25px;
+}
+
+.shop-btn {
+    padding: 15px 25px 15px 25px;
+}
+
+.shop-btn a {
+    color: black;
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+}
+
+.shop-btn:hover {
+    color: white;
+    background-color: #3f3b3a;
+}
+
+.line-1 {
+    text-align: center;
+}
+
+.line-2 {
+    text-align: center;
+}
+
+.content-2 {
+    min-width: 320px;
+    width: 100%;
+}
+
+.con-head {
+    text-align: center;
+}
+
+.photo-loc {
+    display: inline-block;
+    height: 300px;
+    width: 22%;
+    margin: 10px;
+}
+
+.photo-text {
+    text-align: left;
+    color: white;
+    margin-top: 55%;
+    margin-left: 5%;
+    text-shadow: 2px 2px black;
+}
+
+.cata-1 {
+    background-image: url(./images/cata1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cata-2 {
+    background-image: url(./images/cata2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cata-3 {
+    background-image: url(./images/cata3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cata-4 {
+    background-image: url(./images/cata4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cata-5 {
+    background-image: url(./images/cata5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cata-6 {
+    background-image: url(./images/cata6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cata-7 {
+    background-image: url(./images/cata7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cata-8 {
+    background-image: url(./images/cata8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shopnow-btn {
+    padding: 5px 10px 5px 10px;
+}
+
+.shopnow-btn a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+/* Footer */
+
+.myfooter {
+    background-color: #f7f6f4;
+}
+
+.foot-top {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foot-top-head,
+.newsletter {
+    display: inline-block;
+}
+
+.foot-top-head {
+    text-align: left;
+}
+
+.foot-top-head h4 {
+    margin-bottom: 0;
+}
+
+.foot-top-head p {
+    margin-top: 10px;
+}
+
+.newsletter {
+    margin-left: 10%;
+}
+
+.newsletter input {
+    height: 30px;
+}
+
+.newsletter button {
+    margin: 0;
+    background-color: black;
+    padding: 10px 100px 10px 100px;
+}
+
+.newsletter button a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.foot-mid {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.myft {
+    display: inline-block;
+}
+
+.foot-links {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.foot-links ul {
+    list-style: none;
+}
+
+.foot-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.mychatopt {
+    vertical-align: top;
+}
+
+.chat-opt a {
+    margin: 0;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 15px 15px 15px 15px;
+}
+
+.chat-opt a i {
+    color: black;
+    margin: 10px;
+}
