@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    min-width: 320px;
+    min-width: 480px;
 }
 
 .updates {
@@ -70,6 +70,10 @@ body {
     text-decoration: none;
 }
 
+.mysale {
+    color: red !important;
+}
+
 /* .main-content{
     text-align: center;
     align-items: center;
@@ -121,7 +125,7 @@ body {
 }
 
 .content-2 {
-    min-width: 320px;
+    min-width: 480px;
     width: 100%;
 }
 
@@ -132,40 +136,42 @@ body {
 .photo-loc {
     display: inline-block;
     height: 300px;
-    width: 22%;
+    width: 300px;
+    min-width: 150px;
     margin: 10px;
+    padding: 5px;
 }
 
 .photo-text {
     text-align: left;
     color: white;
-    margin-top: 55%;
-    margin-left: 5%;
+    margin-top: 50px;
+    margin-left: 5px;
     text-shadow: 2px 2px black;
 }
 
 .cata-1 {
     background-image: url(./images/cata1.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .cata-2 {
     background-image: url(./images/cata2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .cata-3 {
     background-image: url(./images/cata3.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .cata-4 {
     background-image: url(./images/cata4.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 
 .cata-5 {
@@ -240,6 +246,7 @@ body {
 
 .newsletter button {
     margin: 0;
+    margin-top: 5px;
     background-color: black;
     padding: 10px 100px 10px 100px;
 }
