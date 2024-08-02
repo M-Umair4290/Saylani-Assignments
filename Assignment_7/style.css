@@ -91,6 +91,7 @@ body {
     min-height: 300px;
     height: 600px;
     text-shadow: 2px 2px black;
+    box-sizing: border-box;
 }
 
 .content-1 h1 {
@@ -99,6 +100,11 @@ body {
 
 .content-1 p {
     font-size: 25px;
+}
+
+.main-heading {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .shop-btn {
@@ -145,8 +151,8 @@ body {
 .photo-text {
     text-align: left;
     color: white;
-    margin-top: 50px;
-    margin-left: 5px;
+    margin-top: 200px;
+    margin-left: 15px;
     text-shadow: 2px 2px black;
 }
 
@@ -212,10 +218,12 @@ body {
 
 .myfooter {
     background-color: #f7f6f4;
+    padding-bottom: 50px;
 }
 
 .foot-top {
     text-align: center;
+    padding-top: 25px;
     margin-bottom: 40px;
 }
 
