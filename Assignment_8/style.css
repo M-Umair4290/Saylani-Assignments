@@ -1,0 +1,596 @@
+body {
+    margin: 0;
+    min-width: 800px;
+}
+
+/* <----------Header----------> */
+
+#navigation {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+#logo {
+    width: 200px;
+}
+
+#my-logo,
+#my-navbar {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#my-navbar {
+    box-sizing: border-box;
+}
+
+#nav-list {
+    list-style: none;
+}
+
+.nav-item {
+    margin: 20px;
+    display: inline-block;
+}
+
+.nav-item a {
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+}
+
+#nav-btn1 {
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: black;
+    margin: 10px auto;
+}
+
+#nav-btn2 {
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: #ed1c24;
+    margin: 10px auto;
+}
+
+#nav-btn2 i {
+    margin-left: 5px;
+    color: #ed1c24;
+    padding: 6px 7px;
+    border-radius: 23px;
+    background-color: white;
+}
+
+/* <----------Content ---------->*/
+
+/* #main-heading {
+    font-size: 50px;
+    font-weight: bolder;
+} */
+
+#content-1 {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.Carousel-Content-1-Photo-1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-name {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* <----------CONTENT NO. 2----------> */
+
+#content-2 {
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: black;
+}
+
+#content-2 h1 {
+    color: white;
+}
+
+#content-2 p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 30px;
+}
+
+#content-2-mid {
+    list-style: none;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content-2-list {
+    margin: 10px;
+    display: inline-block;
+}
+
+.content-2-fig img {
+    border-radius: 3px;
+    width: 250px;
+    height: 140px;
+    background-color: white;
+}
+
+.content-2-buttons {
+    margin: 10px;
+}
+
+.content-2-btn {
+    color: white;
+    padding: 15px 45px 15px 45px;
+    border-radius: 30px;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+/* <----------CONTENT NO. 3----------> */
+
+#content-3 {
+    padding: 50px;
+    text-align: center;
+    background-color: #0f0f0f;
+    background-image: url(./images/back-logo-white.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 25px;
+}
+
+#content-3-main h1 {
+    color: white;
+}
+
+#content-3-main p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 50px;
+}
+
+/* .franchises {
+
+} */
+
+/* <----------Franchise-1 (Islamabad)----------> */
+
+#content-3-one-main,
+#content-3-one-main-fig {
+    display: inline-block;
+}
+
+#content-3-one-main {
+    padding-left: 40px;
+    padding-right: 100px;
+    text-align: left;
+    vertical-align: top;
+    /* margin-right: 320px; */
+    padding-bottom: 50px;
+}
+
+.city-name {
+    color: #ed1c24;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#cont-3-one-top h2 {
+    color: white;
+}
+
+#cont-3-one-top p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.cont-3-phone {
+    color: #808080;
+    text-decoration: none;
+}
+
+#cont-3-one-bottom {
+    margin-top: 70px;
+}
+
+#cont-3-one-bottom i {
+    color: #ed1c24;
+    background-color: white;
+}
+
+.cont-3-btns {
+    color: white;
+    border-radius: 30px;
+    border: 1px solid white;
+    padding: 15px 25px 15px 25px;
+    background-color: #0f0f0f;
+    text-decoration: none;
+}
+
+.cont-3-btns i {
+    margin-left: 5px;
+    color: #ed1c24;
+    padding: 6px 7px;
+    border-radius: 23px;
+    background-color: white;
+}
+
+/* <----------Franchise-2 (Faisalabad)----------> */
+
+#content-3-two-main,
+#content-3-two-main-fig {
+    display: inline-block;
+}
+
+#content-3-two-main {
+    padding-left: 40px;
+    /* padding-right: 40px; */
+    text-align: left;
+    vertical-align: top;
+    padding-bottom: 50px;
+}
+
+#cont-3-two-top h2 {
+    color: white;
+}
+
+#cont-3-two-top p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#cont-3-two-bottom {
+    margin-top: 70px;
+}
+
+#content-3-two-main-fig {
+    margin-right: 100px;
+}
+
+/* <----------Franchise-3 (Bahawalpur)----------> */
+
+#content-3-three-main,
+#content-3-three-main-fig {
+    display: inline-block;
+}
+
+#content-3-three-main {
+    padding-left: 40px;
+    padding-right: 100px;
+    text-align: left;
+    vertical-align: top;
+    /* margin-right: 320px; */
+    padding-bottom: 50px;
+}
+
+#cont-3-three-top h2 {
+    color: white;
+}
+
+#cont-3-three-top p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#cont-3-three-bottom {
+    margin-top: 70px;
+}
+
+#cont-3-three-bottom i {
+    color: #ed1c24;
+    background-color: white;
+}
+
+/* ----------Express Franchise (Content)---------- */
+
+#express-franchises {
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+}
+
+#express-franchise-top {
+    color: white;
+}
+
+#express-top-franchise {
+    font-size: 48px;
+}
+
+#express-top-opening {
+    font-size: 25px;
+}
+
+/* ----------Express Franchise Boxes---------- */
+
+#exp-franchise-box-1,
+#exp-franchise-box-2,
+#exp-franchise-box-3 {
+    display: inline-block;
+}
+
+#exp-fran-line-1 {
+    padding: 10px;
+}
+
+.exp-fran-all-boxes {
+    margin: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+    background-color: white;
+    padding: 20px 80px 20px 80px;
+}
+
+.exp-fran-box-para {
+    color: #ed1c24;
+    text-transform: uppercase;
+}
+
+.exp-fran-box-heading {
+    color: black;
+}
+
+.exp-fran-box-main-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.exp-fran-box-main-name p {
+    margin: 5px;
+}
+
+/* #exp-franchise-box-2 {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+    background-color: white;
+}
+
+#exp-franchise-box-3 {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+    background-color: white;
+} */
+
+#exp-franchise-box-4,
+#exp-franchise-box-5,
+#exp-franchise-box-6 {
+    display: inline-block;
+}
+
+#exp-fran-line-2 {
+    padding: 10px;
+}
+
+/* #exp-franchise-box-4 {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+    background-color: white;
+}
+
+#exp-franchise-box-5 {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+    background-color: white;
+}
+
+#exp-franchise-box-6 {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px 80px 20px 80px;
+    background-color: white;
+} */
+
+#exp-fran-line-3 {
+    padding: 10px;
+}
+
+#exp-franchise-box-7 {
+    height: 271.53px;
+    width: 198px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 80px 5px 80px;
+    background-color: white;
+}
+
+#exp-fran-box-7-loc-icon {
+    margin-top: 20px;
+}
+
+/* ----------Instagram Posts (Content)---------- */
+
+#insta-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: black;
+}
+
+#insta-heading {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.insta-boxes {
+    display: inline-block;
+    padding: 10px;
+}
+
+.insta-cont-box img {
+    width: 355px;
+    height: 355px;
+}
+
+/* <----------Footer----------> */
+
+#my-footer {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    background-color: #0f0f0f;
+    background-image: url(./images/back-logo.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position-y: bottom;
+}
+
+#footer-info,
+#footer-links,
+#footer-details,
+#footer-socials,
+#footer-bottom,
+#top-button {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+#footer-logo {
+    width: 150px;
+}
+
+#footer-info {
+    max-width: 20%;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+#foot-para {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.foot-info-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+#footer-links {
+    margin-left: 50px;
+}
+
+#footer-list {
+    list-style: none;
+}
+
+.foot-heading {
+    color: white;
+}
+
+.footer-item {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.footer-item a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+#footer-details {
+    margin-left: 50px;
+    width: 250px;
+}
+
+.foot-subheading {
+    color: white;
+    font-weight: bold;
+}
+
+#foot-head-1 {
+    width: 40%;
+}
+
+.foot-subheading {
+    width: 60%;
+}
+
+#footer-details p {
+    width: 80%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#mail-us {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+/* #location {
+    width: 50%;
+} */
+
+#footer-social-top a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #ed1c24;
+}
+
+#footer-social-top i {
+    color: white;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#footer-bottom {
+    color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#foot-bot-part-1,
+#foot-bot-part-2 {
+    display: inline-block;
+}
+
+#foot-bot-part-1 {
+    width: 28%;
+    text-align: left;
+}
+
+#foot-bot-part-2 {
+    width: 28%;
+    text-align: right;
+}
+
+#foot-bot-link {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+/* <----------Go To Top (Button)----------> */
+
+#top-button {
+    margin-left: 50px;
+    vertical-align: bottom;
+}
+
+#go-to-top {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#go-to-top i {
+    display: inline-block;
+    color: gray;
+    font-size: 40px;
+}
