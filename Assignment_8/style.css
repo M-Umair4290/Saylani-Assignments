@@ -24,6 +24,7 @@ body {
 
 #my-navbar {
     box-sizing: border-box;
+    width: 80%;
 }
 
 #nav-list {
@@ -31,7 +32,7 @@ body {
 }
 
 .nav-item {
-    margin: 20px;
+    margin: 10px;
     display: inline-block;
 }
 
@@ -39,7 +40,7 @@ body {
     color: white;
     border-radius: 10px;
     text-decoration: none;
-    padding: 15px 20px 15px 20px;
+    padding: 15px;
 }
 
 #nav-btn1 {
